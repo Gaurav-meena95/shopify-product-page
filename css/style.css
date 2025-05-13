@@ -1,0 +1,53 @@
+body{
+  background-color: rgb(53, 43, 63);
+  color: rgb(255, 255, 255);
+  margin: 0;
+  padding: 0;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(133, 62, 227);
+  padding: 2vh;
+
+}
+.nav_link a{
+  margin-left:10vw ;
+  text-decoration: none;
+  color: white;
+}
+.search_bar{
+  display: flex;
+  background-color: white;
+  width: 20vw;
+  border-radius: 0.3vw;
+}
+input{
+  outline: none;
+  border: none;
+}
+.search{
+  width: 1.8vw;
+  height: 3vh;
+  margin:0 0.5vw;
+
+}
+a:hover{
+  border-bottom: 2px solid white;
+
+}
+.thumb img{
+  width:60%;
+}
+.thumb {
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+  margin: 2vh;
+}
+.arrow{
+  background-color: azure;
+  padding: 2vw;
+  border-radius: 50vw;
+  color: black;
+}
